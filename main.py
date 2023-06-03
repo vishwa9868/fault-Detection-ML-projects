@@ -1,6 +1,8 @@
 from sensor.logger import logging
 from sensor.exception import SensorException
+from sensor.utils import get_collection_as_dataframe
 import sys,os
+from sensor.entity.config_entity import DataIngestionConfig
 
 try:
      logging.info("Starting the test_logger_and_exception"):
