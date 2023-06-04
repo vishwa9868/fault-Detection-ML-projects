@@ -2,8 +2,9 @@ from sensor.logger import logging
 from sensor.exception import SensorException
 from sensor.utils import get_collection_as_dataframe
 import sys,os
-#from sensor.entity.config_entity import DataIngestionConfig
+from sensor.entity.config_entity import DataIngestionConfig
 from sensor.entity import confug_entity
+from sensor.config import mongo_client
 
 
 
